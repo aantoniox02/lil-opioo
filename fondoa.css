@@ -1,0 +1,18 @@
+/* Definición de la animación */
+@keyframes cambioColor {
+    0% {
+        background-color: #3BA8C1; /* Color inicial */
+    }
+    50% {
+        background-color: #8C3C93; /* Color intermedio */
+    }
+    100% {
+        background-color: #C86292; /* Color final */
+    }
+}
+
+/* Aplicar la animación al fondo del body */
+body {
+    animation: cambioColor 5s infinite; /* Nombre de la animación, duración y repetición infinita */
+    background-color: #ff0000; /* Color inicial */
+}

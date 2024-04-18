@@ -1,0 +1,15 @@
+/* Estilo base para el cuerpo de la página */
+body {
+    font-size: 16px; /* Tamaño de fuente base */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+/* Media query para dispositivos con ancho máximo de 600px */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Reducir tamaño de fuente para pantallas pequeñas */
+    }
+}

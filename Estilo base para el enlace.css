@@ -1,0 +1,17 @@
+/* Estilo base para el enlace */
+a {
+    color: #333; /* Color del texto del enlace */
+    text-decoration: none; /* Eliminar subrayado predeterminado */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s; /* Efecto de transición para el cambio de color */
+}
+
+/* Estilo al pasar el mouse sobre el enlace */
+a:hover {
+    color: #666; /* Cambiar color del texto al pasar el mouse */
+}
+
+/* Estilo para el enlace visitado */
+a:visited {
+    color: #999; /* Color del texto para enlaces visitados */
+}

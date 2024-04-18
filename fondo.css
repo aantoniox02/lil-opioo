@@ -1,0 +1,6 @@
+
+    background-color: #f1f1f1; /* Color de fondo */
+    background-image: url('fondo.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-position: center; /* Posicionar la imagen en el centro */
